@@ -36,7 +36,7 @@ Creates the badge dot view, sets its background color, and applies a circular sh
 Positions the badge dot view relative to the button's bounds and adjusts its visibility based on the `badgeVisible` property.
 
 ## Usage
-'''
+```
 let badgeButton = BadgeButton(type: .custom)
 badgeButton.frame = CGRect(x: 100, y: 100, width: 100, height: 40)
 badgeButton.setTitle("Button", for: .normal)
@@ -52,4 +52,4 @@ badgeButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside
 
 // Add to view
 view.addSubview(badgeButton)
-'''
+```
